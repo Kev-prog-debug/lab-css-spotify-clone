@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar {
+  height: 50px;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.navbar img {
+  width: 15%;
+}
+.navbar ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navbar ul li {
+  font-size: 20px;
+}
+/* landing-page */
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+.text-box p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+/* showcase */
+.showcase {
+  text-align: center;
+}
+.showcase h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.card-container {
+  display: flex;
+  padding: 20px 25px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card img {
+  width: 100px;
+}
+.card h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00b172;
+}
+.card h3 {
+  word-wrap: break-word;
+  width: 200px;
+  font-weight: 300;
+}
+
+/* kanye west */
+.container {
+  height: 100vh;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr;
+  grid-template-rows: 120px 150px 150px 150px;
+  gap: 10px;
+  background-color: #00b172;
+  color: #fff;
+}
+.title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  margin: auto 0;
+}
+.title h2 {
+  font-size: 45px;
+  font-weight: 500;
+  border-bottom: 3px solid #fff;
+}
+.title-2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.title-2,
+.title-3,
+.title-4 {
+  margin-left: 20px;
+}
+.title-2 h1,
+.title-3 h1,
+.title-4 h1 {
+  font-size: 28px;
+  font-weight: 510;
+  margin-bottom: 20px;
+}
+.title-1 p,
+.title-2 p,
+.title-3 p {
+  line-height: 1.5rem;
+}
+.title-3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.title-4 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.app-img {
+  width: 305px;
+  height: 450px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.spotify-icon {
+  width: 80px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
